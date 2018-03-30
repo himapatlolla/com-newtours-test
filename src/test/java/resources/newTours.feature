@@ -5,7 +5,7 @@ Feature: new tours
     And enters all the required registration information
     And selects submit
     Then user should successfully register
-    
+
     Scenario: User should be able to view Cruise itinerary
       Given user is on homepage
       When user selects Cruises
